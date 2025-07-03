@@ -20,7 +20,7 @@ const Header = ({ isScrolled, location, searchQuery, setSearchQuery, setShowCart
 
           {/* Center section - Search */}
           <div className="hidden md:flex flex-1 max-w-2xl mx-4">
-            <div className="relative w-full">
+            <div className="relative w-full bg-white rounded-4xl">
               <input
                 type="text"
                 placeholder="Search everything at Walmart online and in store"
